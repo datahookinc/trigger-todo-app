@@ -22,11 +22,19 @@ const config: GatsbyConfig = {
 			},
 			__key: "pages"
 		},
+		// {
+		// 	resolve: "gatsby-source-filesystem",
+		// 	options: {
+		// 		name: "tour",
+		// 		path: `${__dirname}/tour`,
+		// 	},
+		// 	__key: "tour",
+		// },
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {
 				name: "tour",
-				path: `${__dirname}/tour`,
+				path: `${__dirname}/src/content`,
 			},
 			__key: "tour",
 		},

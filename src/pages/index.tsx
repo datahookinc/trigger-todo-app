@@ -9,4 +9,4 @@ export default function IndexPage() {
   return
 }
 
-export const Head = () => <SEO title="Home" />
+export const Head = () => <SEO title="Overview" />
